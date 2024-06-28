@@ -1,0 +1,119 @@
+/* chatStyles.css */
+/* Additional styles for voice control buttons */
+.voiceBtn {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin: 5px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.inputWithIcon {
+  position: relative;
+  width: calc(100% - 20px);
+}
+.voiceBtn:hover {
+  background-color: #45a049;
+}
+.micBtn {
+  position: absolute;
+  right: 10px; /* position inside the right edge of the textarea */
+  top: 5px; /* position in the middle of the textarea */
+  border: none;
+  background: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.micBtn:hover {
+  color: #0056b3;
+}
+.formContainer {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center align items horizontally */
+  opacity: 1; /* Initially hidden */
+  transition: opacity 0.5s ease; /* Apply transition effect */
+}
+
+.formContainer.loaded {
+  opacity: 1; /* Make visible when loaded */
+}
+
+.formControl {
+  width: calc(100% - 20px);
+  min-height: 100px;
+  padding: 10px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.formBtn {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.formBtn:hover {
+  background-color: #0056b3;
+}
+
+.responseContainer {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.responseContainer h3 {
+  margin-top: 0;
+}
+
+.responseContainer p {
+  margin-bottom: 0;
+}
+
+.agent {
+  display: flex;
+  align-items: center;
+}
+
+.agent-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.agent-message h2 {
+  margin: 0;
+}
+
+.agent-message p {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+}
+.message-bubble {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  width: fit-content;
+  max-width: 70%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

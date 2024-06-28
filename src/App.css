@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.headerSubDiv {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.headerText {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.headerSubText {
+  color: #666;
+  font-size: 16px;
+}
+
+
+
+ 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

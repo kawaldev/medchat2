@@ -1,0 +1,24 @@
+/* headerStyles.css */
+
+.headerContainer {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center; /* Center align text */
+  }
+  
+  .headerSubDiv {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .headerText {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .headerSubText {
+    color: #666;
+    font-size: 16px;
+  }
+  
